@@ -1,0 +1,58 @@
+h1 {
+  display: inline-block;
+  font-weight: normal;
+  font-size: 1em;
+}
+
+.section-title { //h2
+  @include font-forum-uppercase();
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  color: $color-gold;
+  
+}
+.section-title_white {
+  color: $color-white;
+}
+.underline-title, .underline-title_tour{
+  position: relative;
+
+}
+.underline-title::after {
+  content: "";
+  position: absolute;
+  bottom: -28px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: $color-dark-red;
+}
+
+.underline-title_tour::after {
+  content: "";
+  position: absolute;
+  bottom: -13px;
+  left: 0;
+  right: 140px;
+  height: 2px;
+  background-color: $color-dark-red;
+
+ 
+}
+
+
+/*h4 оплата {
+  @include font-forum-uppercase();
+  font-size: 50px;
+  line-height: 55px;
+}*/
+
+h3 {
+  @include font-forum-uppercase();
+  font-size: 32px;
+  line-height: 35px;
+  letter-spacing: 5px;
+  color: $color-black;
+}
+

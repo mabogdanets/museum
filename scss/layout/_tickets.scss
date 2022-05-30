@@ -1,0 +1,87 @@
+.ticket__content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 103px;
+}
+/*.ticket__picture {
+
+}*/
+.ticket-form {
+   flex-grow: 1; 
+}
+.ticket__form {
+  display: flex;
+  justify-content: space-between;
+
+}
+.ticket__ticket-type {
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
+
+}
+
+.ticket__lable {
+  padding-top: 25px;
+}
+.ticket__subtitle {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  color: $color-black;
+}
+.ticket__subtitle_total {
+  padding: 50px 0 52px;
+  letter-spacing: 1.65px;
+}
+
+.ticket__lable {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 39px;
+  color: $color-black;
+}
+.ticket__controls {
+  display: flex;
+  justify-content: space-around;
+  width: 150px;
+  height: 50px;
+  border: 3px solid $color-black;
+}
+.ticket__button_control {
+  font-weight: normal;
+  font-size: 32px;
+  background: $color-white;
+  line-height: 37px;
+  text-align: center;
+  color: $color-black;
+  
+
+}
+.ticket__number {
+  all: unset;
+  width: 50px;
+  height: 50px;
+  text-align: end;
+  
+}
+
+.ticket__amount {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.ticket__button {
+  width: 175px;
+  height: 50px;
+  background: $color-black;
+  border-radius: 2px;
+
+  color: $color-white;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 2px
+}

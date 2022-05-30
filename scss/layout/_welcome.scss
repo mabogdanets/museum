@@ -1,0 +1,134 @@
+.welcome {
+    height: 810px;
+    margin: 0 auto;
+    background: $color-bg-dark;
+
+}
+.welcome-wrapper{
+  position: relative;
+    display: flex;
+    justify-content: space-between;
+    background: url('../assets/img/mona-liza-main.png') no-repeat right;
+    height: fit-content;
+    background-size: auto 750px;
+    padding: 0;//padding: 75px 0 0;
+}
+.welcome__content {
+   padding: 150px 0;// padding: 75px 0 211px;
+   z-index: 5;
+}
+.welcome__description {
+    padding: 27px 0 100px;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 2px;
+    color: $color-white;
+}
+.welcome__button {
+    padding: 25px 66px;
+    background: $color-dark-red;
+    border-radius: 10px; 
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: $color-white;
+}
+
+///---slider---
+.welcome-slider {
+  //transform: translate(-50%, -50%);
+  position: absolute;
+  right: 0;
+  //position: relative;
+  display: flex;
+  flex-direction: column;
+  width: $slider-width;
+  height: $slider-height;
+
+}
+.welcome-slider::before {
+  content: "";
+  position: absolute;
+  height: $slider-height;
+  width: 350px;
+  background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.5) 16.19%, rgba(0, 0, 0, 0) 30.73%);
+  z-index: 3;
+}
+.welcome-slider-wrapper {
+  overflow: hidden;
+  position: relative;
+  width: $slider-width;
+  height: $slider-height;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+.welcome-slides {
+  display: flex;
+  position: relative;
+  //top: 0;
+  left: -$slider-width;
+  width: 10000px;
+}
+
+.welcome-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: $slider-width;//$slider-width;
+  height: $slider-height;
+  transition: all 1s;
+  position: relative;  
+  cursor: pointer;
+}
+.slides.shifting {
+  transition: left .2s ease-out;
+}
+.welcome-ctrl {
+   // position: relative;
+   // top: 60px;
+    position:absolute;
+    top: calc(#{$slider-height} - 60px);
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 600px;
+    height: 120px;
+    background: $color-bg-dark;
+    z-index: 1;
+}
+.welcome-ctrl__fractoin {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+}
+.welcome-ctrl-pagination{
+  display: flex;
+  column-gap: 25px;
+}
+.welcome-ctrl__text {
+    color: $color-white;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 40px;
+    text-transform: uppercase;
+    background: none;
+  }
+.welcome-ctrl__text_prev:active,
+.welcome-ctrl__text_next:active {
+  transform: scale(.8);
+}
+  
+  .welcome-ctrl__dot {
+    width: 16px;
+    height: 16px;
+    background: $color-white;
+  }
+  
+  .welcome-ctrl__dot_gold {
+    background: $color-gold-ligth;
+  }
+ 

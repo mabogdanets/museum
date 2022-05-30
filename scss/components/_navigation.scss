@@ -1,0 +1,29 @@
+.navigation__items_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation__item_header {
+  padding: 62px 0 62px 56px;
+  
+}
+
+.navigation__link {
+  color: $color-white;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 2px;
+}
+
+.navigation__items_footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 25px 173px;
+  justify-content: flex-start;
+  height: 128px;
+
+}
+

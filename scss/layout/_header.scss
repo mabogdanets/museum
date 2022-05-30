@@ -1,0 +1,10 @@
+.header {
+  margin: 0 auto;
+  background-color: $color-bg-dark;
+}
+.header-wrapper {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

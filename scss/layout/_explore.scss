@@ -1,0 +1,28 @@
+.explore {
+  background: $color-bg-dark;
+}
+.explore-wrapper {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 60px;
+  
+}
+.explore__text {
+  padding-top: 26px;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38px;
+  color: $color-white;
+}
+.explore__text_first {
+ padding-top: 103px;
+}
+
+.explore__text_gold {
+  color: $color-gold;
+}
+
+.explore__slider {
+  padding-top: 15px;
+  width: 720px;
+}

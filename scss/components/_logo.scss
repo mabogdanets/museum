@@ -1,0 +1,27 @@
+
+.logo__link{
+  display: flex;
+  flex-wrap: nowrap;
+  transition: 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.05);   
+  }
+}
+
+.logo__ico {
+  background-image: url("/assets/svg/logo.svg");
+  display: inline-block;
+  width: 49px;
+  height: 26px;
+}
+
+
+.logo__title {
+  display: inline-block;
+  padding-left: 21px;
+  @include font-forum-uppercase;
+  font-size: 28px;
+  color: $color-white;
+  line-height: 31px;
+  letter-spacing: 5px;  
+}

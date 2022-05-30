@@ -1,0 +1,23 @@
+$color-bg-dark: #030303;
+$color-dark-red: #710707;
+$color-vinous: #740C11;
+$color-gold: #9d8665;
+$color-gold-ligth: #D2B183;
+$color-white: #FFFFFF;
+$color-black: #000000;
+$color-gray: #666666;
+
+$font-size1: 80px;
+$font-size2: 32px;
+
+$font-forum: 'Forum', cursive;
+$font-roboto: 'Roboto', sans-serif;
+
+$breakpoints: (
+  'small': (min-width: 420px),
+  'medium': (min-width: 768px),
+  'large': (min-width: 1024px),
+  'huge': (min-width: 1920px),  
+);
+$slider-width: 1000px;
+$slider-height: 750px;

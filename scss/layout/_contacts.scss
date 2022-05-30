@@ -1,0 +1,29 @@
+.layout__2-column {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 103px;
+}
+.contscts__map {
+  font-size: 0;
+}
+.cantacts__text {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  color: $color-black;
+
+}
+
+.cantacts__text_name {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+}
+.cantacts__text_address {
+  padding-top: 50px;
+}
+.cantacts__text_phone,
+.cantacts__text_mail {
+  padding-top: 25px;
+}
+
